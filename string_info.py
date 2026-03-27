@@ -9,5 +9,5 @@ def string_info():
     print("Primera letra: " + palabra [0])
     print("Ultima letra: " + palabra[-1])
     print("Repetida: " + palabra * 3)
-    print("Decorada: " + "***" + palabra + "***")
+    print("Decorada: " + '***' + palabra + '***')
 string_info()

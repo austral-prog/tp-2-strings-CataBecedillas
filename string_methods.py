@@ -16,11 +16,11 @@ def string_methods():
     print("Lower:", frase.lower())
     print("Title:", frase.title())
     
-    print("Find:", frase.find("gran"))
-    print("Replace:", frase.replace("programacion","desarrollo"))
-    print("Count:", frase.count("a"))
-    print("Contiene Python:", "Python" in frase)
-    print("Contiene Java:", "Java" in frase)
+    print("Find:", frase.find('gran'))
+    print("Replace:", frase.replace('programacion','desarrollo'))
+    print("Count:", frase.count('a'))
+    print("Contiene Python:", 'Python' in frase)
+    print("Contiene Java:", 'Java' in frase)
     print("Slice:", frase[ :6])
     print("Paso:", frase[ :6:2])
     print("Reverso:", frase [5::-1]) #cuando contas al reves no tenes en cuenta el 0

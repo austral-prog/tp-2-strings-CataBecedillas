@@ -48,15 +48,15 @@ def ficha():
     espacio = nombre_strip.find(" ")
     iniciales = nombre_strip[0].upper() + nombre_strip[espacio + 1].upper()
     print("Iniciales:", iniciales)
-    print("Usuario:", nombre_strip[espacio + 1:].lower() + "." + nombre_strip[:espacio].lower())
+    print("Usuario:", nombre_strip[espacio + 1:].lower() + '.' + nombre_strip[:espacio].lower())
     
-    print("Email valido:", "@" in email)
+    print("Email valido:", '@' in email)
     arroba = email.find("@")
     print("Dominio:", email[arroba+1 : ].lower())
     
-    print("Nombre para archivo:", nombre_strip.replace(" " , "_").title())
+    print("Nombre para archivo:", nombre_strip.replace(' ' , '_').title())
     
-    print("Cantidad de a:", nombre_strip.lower().count("a"))
+    print("Cantidad de a:", nombre_strip.lower().count('a'))
     
     print("Codigo secreto:", nombre_strip[::-1].upper())
     
