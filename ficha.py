@@ -51,7 +51,7 @@ def ficha():
     print("Usuario:", nombre_strip[espacio + 1:].lower() + '.' + nombre_strip[:espacio].lower())
     
     print("Email valido:", '@' in email)
-    arroba = email.find("@")
+    arroba = email.find('@')
     print("Dominio:", email[arroba+1 : ].lower())
     
     print("Nombre para archivo:", nombre_strip.replace(' ' , '_').title())
@@ -69,5 +69,4 @@ def ficha():
     print("Promedio:", promedio)
     print("Promedio entero:", round(promedio))
     print(deco)
-
-ficha()
+#ficha()

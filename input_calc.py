@@ -11,4 +11,4 @@ def rectangle():
     print("Area:", area)
     perimentro = ((base * 2) + (altura * 2))
     print("Perimetro:", perimentro)
-rectangle()
+#rectangle()

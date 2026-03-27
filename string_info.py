@@ -10,4 +10,4 @@ def string_info():
     print("Ultima letra: " + palabra[-1])
     print("Repetida: " + palabra * 3)
     print("Decorada: " + '***' + palabra + '***')
-string_info()
+#string_info()

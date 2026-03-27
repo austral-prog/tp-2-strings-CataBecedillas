@@ -6,5 +6,5 @@ def slice_advanced():
     
     texto = input("Texto: ")
     print(texto[4 : : 2]) #letra numero 4 : ultima letra : y cada cuanto agarra una letra (en este caso de dos en dos)
-slice_advanced()
+#slice_advanced()
     
