@@ -8,3 +8,22 @@ def string_methods():
     multilinea = """Linea 1
     Linea 2
     Linea 3"""
+    print("Strip:", nombre.strip())
+    print("Lstrip:", nombre.lstrip())
+    print("Rstrip:", nombre.rstrip())
+    
+    print("Upper:", frase.upper())
+    print("Lower:", frase.lower())
+    print("Title:", frase.title())
+    
+    print("Find:", frase.find("gran"))
+    print("Replace:", frase.replace("programacion","desarrollo"))
+    print("Count:", frase.count("a"))
+    print("Contiene Python:", "Python" in frase)
+    print("Contiene Java:", "Java" in frase)
+    print("Slice:", frase[ :6])
+    print("Paso:", frase[ :6:2])
+    print("Reverso:", frase [5::-1]) #cuando contas al reves no tenes en cuenta el 0
+    print(f"Formato: {nombre.strip()} sabe Python")
+    print("Linea 1\nLinea 2\nLinea 3")
+string_methods()
